@@ -1,0 +1,38 @@
+@font-face { /* @font-face เข้าถึง font ที่โหลด*/
+    src: url(../font/Mitr-Regular.ttf); /* keyword src : url(กำหนด path); */
+    font-family: Mitr;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family:  Mitr;
+}
+/* menu */
+.main-menu {
+    max-width: 960px;
+    margin: 0 auto;
+}
+/* menu */
+
+
+/*  */
+.main-greeting {
+    max-width: 960px;
+    margin: 0 auto; 
+}
+.main-greeting .p1 {
+    text-align: center;
+    padding: 10px 0;
+    margin-left: 38px;
+    color: rgba(46, 44, 44, 0.3);
+}
+/*  */
+
+
+
+.main-table {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+    min-height: calc(100vh - 200px);
+}
